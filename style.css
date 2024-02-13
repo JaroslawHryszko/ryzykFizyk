@@ -1,0 +1,78 @@
+body { 
+  font-family: Arial, sans-serif; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background: #f0e8e8; /* pastelowe tło */
+}
+
+#container { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  animation: fadeIn 1s; 
+}
+
+.item, .item_a, .item_b { 
+  padding: 20px; 
+  border: 1px solid #e7d3d3; /* pastelowa obwódka */
+  border-radius: 5px; 
+  background: #fffafa; /* pastelowy kolor tła */
+  color: #6d6875; /* pastelowy kolor tekstu */
+  text-align: center;
+  margin: 10px; /* Zapewnia odstęp */
+}
+
+.actions { 
+  display: flex; 
+  flex-direction: column; /* Przyciski jeden pod drugim */
+  justify-content: center;
+  align-items: center;
+}
+
+.action { 
+  cursor: pointer; 
+  font-size: 24px; 
+  user-select: none; 
+  transition: transform 0.2s ease-in-out; 
+  color: #6d6875; /* pastelowy kolor tekstu */
+  background: #e7e6e1; /* tło przycisku */
+  border: none; /* usunięcie obramowania */
+  padding: 10px 20px; /* padding przycisku */
+  border-radius: 5px; /* zaokrąglenie rogów */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* cień dla efektu głębi */
+  margin: 5px 0; /* Odstęp pomiędzy przyciskami */
+}
+
+.action:hover { 
+  transform: scale(1.05); /* subtelna animacja przy najechaniu */
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@import url('https://fonts.googleapis.com/css2?family=Orbitron');
+
+.timer { 
+
+    position: absolute; /* absolutne pozycjonowanie */
+    right: 10px; 
+    top: 10px; 
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: #black; 
+    color: #00ff00; /* kolor tekstu zegara LCD */
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 24px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtelny cień */
+}
+
+.instructions { 
+    position: absolute; /* absolutne pozycjonowanie */
+    top: 10px; 
+    text-align: center; 
+    animation: fadeIn 2s; 
+    color: #6d6875; /* pastelowy kolor tekstu */
+}

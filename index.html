@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ryzykFizyk!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="instructions">Porównaj ważność poniższych elementów i wybierz odpowiedni przycisk.</div>
+<div id="container">
+  <div class="item item_a">Ryzyko A: Tu pojawi się pierwsze ryzyko A.</div>
+  <div class="actions">
+    <div class="action" onclick="vote('<')"> &lt; </div>
+    <div class="action" onclick="vote('>')"> &gt; </div>
+  </div>
+  <div class="item item_b">Ryzyko B: Tu pojawi się pierwsze ryzyko B.</div>
+<div class="timer" id="timer">00:00:00</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
