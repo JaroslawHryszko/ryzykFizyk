@@ -1,47 +1,36 @@
-# Software Development Risk Comparator
+# Risk Assessment Tool
 
 ## Overview
-This project is an interactive web application designed to engage users in comparing fictional risks associated with software development projects. It features a simple yet elegant interface where two different risks are presented side by side. Users are asked to compare these risks by deciding which one could potentially have a greater impact on a project. The application also includes a timer to track how long a user takes to make a decision, enhancing the interactive experience.
+The Risk Assessment Tool is designed to facilitate the evaluation of risks associated with software development projects. It offers an intuitive web interface where users can choose between two distinct approaches to risk assessment: comparing risks directly or utilizing a risk matrix.
 
 ## Features
-- **Dynamic Risk Comparison:** Users can compare two randomly generated software development risks.
-- **Interactive Timer:** Tracks the duration it takes for a user to make a decision.
-- **Responsive Design:** The application is fully responsive and can be used on various devices and screen sizes.
-- **User Interaction:** Simple and intuitive interface allowing users to interact with the application effortlessly.
-
-## Technology Stack
-- HTML: For structuring the web application.
-- CSS: For styling and responsive design.
-- JavaScript: For dynamic content generation and interactive elements.
+- **Two Assessment Methods:**
+  - **Comparing Risks:** Users are presented with two risks and must decide which one poses a greater threat.
+  - **Risk Matrix:** Allows users to place risks on a probability-impact matrix, offering a visual representation of risk severity.
+- **Interactive Elements:** Utilizes drag-and-drop functionality for the Risk Matrix and clickable options for risk comparison.
+- **Dynamic Content:** Generates descriptions of fictional risks in natural language, enhancing the user experience and engagement.
+- **Responsive Design:** Ensures a seamless experience across various devices and screen sizes.
 
 ## Getting Started
-To get started with the Software Development Risk Comparator, follow these steps:
 
 ### Prerequisites
-Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Safari, Edge) to run the application.
+- A modern web browser (Chrome, Firefox, Safari, Edge) is required to run the application.
 
 ### Installation
 1. Clone the repository or download the source code to your local machine.
    ```
-   git clone https://your-repository-link.git
+   git clone https://github.com/JaroslawHryszko/ryzykFizyk.git
    ```
-2. Navigate to the project directory.
-3. Open the `index.html` file in your web browser.
+2. Open the `index.html` file in your web browser to access the introduction page.
 
-## Usage
-Upon launching the application, you will be presented with two fictional software development risks. Use the following steps to interact with the application:
-
-1. **Read the Risks:** Review the descriptions of Risk A and Risk B displayed on the screen.
-2. **Make Your Decision:** Click on the `<` button if you think Risk A is greater, or the `>` button if you think Risk B is greater.
-3. **Observe the Timer:** Notice the timer in the bottom part of the screen, which tracks how long you take to make a decision.
-4. **View New Risks:** After making a decision, new risks will be generated automatically, and the timer will reset, allowing you to continue the comparison.
+### Usage
+1. **Navigate to the Introduction Page:** Open `index.html` to view the instructions and select your preferred risk assessment method.
+2. **Choose an Assessment Method:** Click on either "Compare Risks" to evaluate risks through comparison or "Risk Matrix" to assess risks using a matrix.
+3. **Interact with the Tool:** Follow the on-screen instructions to assess risks according to the chosen method.
+4. **Submit and Restart:** After assessing a risk, you can submit your evaluation and start over with a new risk description.
 
 ## Contributing
-Contributions to the Software Development Risk Comparator are welcome! If you have suggestions for improvements or new features, feel free to fork the repository, make your changes, and submit a pull request.
+Contributions to the Risk Assessment Tool are welcome. Feel free to fork the repository, make improvements or add new features, and submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-## Acknowledgments
-- Thanks to all contributors who have helped to improve this project.
-- Inspired by common challenges faced in software development projects.
