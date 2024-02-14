@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #f0e8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#matrix-container {
+    position: relative;
+    width: 20vw; /* Ustawienie szerokości na 20% szerokości widoku */
+    height: 20vw; /* Utrzymanie stosunku 1:1 */
+    margin-bottom: 20px;
+}
+
+#draggableRisk {
+    cursor: grab;
+    font-size: 24px;
+}
+
+canvas {
+    width: 400;
+    height: 400;
+}
+
+button {
+    margin-top: 20px;
+}
+
+#riskDescription {
+    margin-top: 20px;
+    font-size: 18px;
+}
